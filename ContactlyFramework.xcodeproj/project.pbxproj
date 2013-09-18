@@ -20,6 +20,7 @@
 		41AD2DEF17E97B90003942BA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AD2DEE17E97B90003942BA /* AddressBook.framework */; };
 		41AD2DF217E97F9A003942BA /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD2DF117E97F9A003942BA /* Contacts.m */; };
 		41AD2DF417E98C6F003942BA /* ContactsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD2DF317E98C6F003942BA /* ContactsTest.m */; };
+		41AD2DF817E99183003942BA /* ContactsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41AD2DF617E99183003942BA /* ContactsModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		41AD2DF017E97F9A003942BA /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
 		41AD2DF117E97F9A003942BA /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
 		41AD2DF317E98C6F003942BA /* ContactsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTest.m; sourceTree = "<group>"; };
+		41AD2DF717E99183003942BA /* ContactsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactsModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		41AD2DC717E96A3B003942BA /* ContactlyFramework */ = {
 			isa = PBXGroup;
 			children = (
+				41AD2DF517E9915A003942BA /* DataModel */,
 				41AD2DCA17E96A3B003942BA /* ContactlyFramework.h */,
 				41AD2DCC17E96A3B003942BA /* ContactlyFramework.m */,
 				41AD2DC817E96A3B003942BA /* Supporting Files */,
@@ -158,6 +161,14 @@
 				41AD2DDE17E96A3B003942BA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41AD2DF517E9915A003942BA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				41AD2DF617E99183003942BA /* ContactsModel.xcdatamodeld */,
+			);
+			name = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 			files = (
 				41AD2DED17E975AA003942BA /* Contact.m in Sources */,
 				41AD2DCD17E96A3B003942BA /* ContactlyFramework.m in Sources */,
+				41AD2DF817E99183003942BA /* ContactsModel.xcdatamodeld in Sources */,
 				41AD2DF217E97F9A003942BA /* Contacts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +451,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41AD2DF617E99183003942BA /* ContactsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41AD2DF717E99183003942BA /* ContactsModel.xcdatamodel */,
+			);
+			currentVersion = 41AD2DF717E99183003942BA /* ContactsModel.xcdatamodel */;
+			path = ContactsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 41AD2DBA17E96A3B003942BA /* Project object */;
 }

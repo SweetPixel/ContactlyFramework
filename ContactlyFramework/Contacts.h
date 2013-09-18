@@ -12,4 +12,5 @@
 
 +(NSMutableArray *)GetAllContactsFromAddressBook;
 
+
 @end

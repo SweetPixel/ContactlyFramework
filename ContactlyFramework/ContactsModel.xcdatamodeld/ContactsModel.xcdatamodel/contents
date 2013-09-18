@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3396" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Contact" syncable="YES">
+        <attribute name="attribute" optional="YES" syncable="YES"/>
+        <attribute name="firstname" optional="YES" syncable="YES"/>
+        <attribute name="lastname" optional="YES" syncable="YES"/>
+        <attribute name="skype" optional="YES" syncable="YES"/>
+        <attribute name="telNo" optional="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contact" positionX="-938" positionY="-70" width="128" height="118"/>
+    </elements>
+</model>
