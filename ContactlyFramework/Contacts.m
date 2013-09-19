@@ -7,11 +7,49 @@
 //
 
 #import "Contacts.h"
+#import <AddressBook/AddressBook.h>
 
 @implementation Contacts
 
-+(NSMutableArray *)GetAllContactsFromAddressBook{
+-(id)init{
+    _addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
+    return self;
+}
+
+-(NSMutableArray *)GetAllContactsFromAddressBook{
     return [[NSMutableArray alloc]init];
 }
+
+
+-(Boolean) CheckAddressBookAccess{
+    switch (ABAddressBookGetAuthorizationStatus()) {
+        case kABAuthorizationStatusAuthorized:
+            return true;
+            break;
+        case kABAuthorizationStatusNotDetermined:
+            [self getAddressBookAccess];
+            return true;
+            break;
+        case kABAuthorizationStatusDenied:
+            return false;
+            break;
+        default:
+            return false;
+            break;
+    }
+}
+
+
+-(void) getAddressBookAccess{
+    ABAddressBookRequestAccessWithCompletion(_addressBook, ^(bool granted, CFErrorRef error)
+                                             {
+                                                 if (granted)
+                                                 {
+                                                   
+                                                 }
+                                             });
+    
+}
+
 
 @end

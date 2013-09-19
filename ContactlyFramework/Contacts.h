@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AddressBook/AddressBook.h>
 
 @interface Contacts : NSObject
+-(NSMutableArray *)GetAllContactsFromAddressBook;
+-(Boolean) CheckAddressBookAccess;
 
-+(NSMutableArray *)GetAllContactsFromAddressBook;
-
-
+@property (nonatomic, assign) ABAddressBookRef addressBook;
 @end

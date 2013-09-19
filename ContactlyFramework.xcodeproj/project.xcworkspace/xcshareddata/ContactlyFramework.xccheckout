@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C04058A-EFEF-4148-986A-527848E73914</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ContactlyFramework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8370C927-DC17-4DDE-A357-055CD7327725</key>
+		<string>https://github.com/SweetPixel/ContactlyFramework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ContactlyFramework.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8370C927-DC17-4DDE-A357-055CD7327725</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SweetPixel/ContactlyFramework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8370C927-DC17-4DDE-A357-055CD7327725</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8370C927-DC17-4DDE-A357-055CD7327725</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ContactlyFramework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
